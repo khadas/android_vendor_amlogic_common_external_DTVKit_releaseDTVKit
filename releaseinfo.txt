@@ -1,5 +1,5 @@
 android-inputsource
-commit: 0cbb93a27c606b76a6fd09ace7678a1c2b35dd30
+commit: 20705ccddf44216764061a2aa9aee156c0555c13
 
 android-rpcservice
 commit: 8580d61c4f5047f2d943d69ea1e42a2261bfb157
@@ -8,7 +8,7 @@ dtvkit-amlogic
 commit: f39cfc2138a27e23ea66de41186205409d031e60
 
 DVBCore
-commit: 715453c008fd416cd8cce557d610a92683a6f000
+commit: 3b31648ac9f219e36b2af080572277fb0ac91af2
 
 CI-PLUS
 commit: 5727aba6de6f8b6382d5c991889eb1efa7d79b46
@@ -20,7 +20,7 @@ MHEG5
 commit: 40e0bce019be448eaf2179c7e8f831841780b37b
 
 DVB
-commit: 6819a3cde5087170d1afd61a12ac28589bac3036
+commit: c2539b70c5c76c3fe2361a9949331bbca3b883b1
 
 
 
