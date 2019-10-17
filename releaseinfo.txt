@@ -1,14 +1,14 @@
 android-inputsource
-commit: be3712d7daca57ffb542322c13b199219efb05bf
+commit: 2b94a99fc79dd7050f9091ea7e9f6273d5bf8eed
 
 android-rpcservice
-commit: 70dcfb5423c20222db7a7556f0e59532c46ba160
+commit: 9c23d90cc3a0f6da2c66ea7d0cb27cd09f3e67c8
 
 dtvkit-amlogic
-commit: 7d47651d13742a2fc7459cfdac59e95cd74bd5e5
+commit: 62f91c6c6e52b732c4abb9dadb8c890f2bc7f462
 
 DVBCore
-commit: 1c064c5971c57438c50e983d58a44377beefed07
+commit: b690d7dac11c6702098f4b87b50ae99fb1e6817e
 
 CI-PLUS
 commit: 5727aba6de6f8b6382d5c991889eb1efa7d79b46
@@ -17,10 +17,10 @@ DSMCC
 commit: 0773253b3f11cd6d60fb6237e8db8d5ba68dbe04
 
 MHEG5
-commit: 40e0bce019be448eaf2179c7e8f831841780b37b
+commit: 056061fd21ad2b434200ebcd367363c785b81340
 
 DVB
-commit: 36bf65994a29adc51c5f0a7103dcd52a97cbe263
+commit: 22ab66e91d1a715c8065e1006d37b7424b895204
 + http://scgit.amlogic.com:8080/#/c/84299/
 http://scgit.amlogic.com:8080/#/c/82292/
 
