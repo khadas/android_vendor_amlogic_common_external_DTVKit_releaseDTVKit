@@ -1,14 +1,11 @@
-android-inputsource
-commit: 1950609157a019eaf54b7b1f387e7c602c762bcf
-
 android-rpcservice
-commit: aa64ac25273e93694d7cee6fde2b65257d589d65
+commit: dfb5ab94459bab50041d73be44dc93920dce3855
 
 dtvkit-amlogic
-commit: fd5d536e8f31f168070355ed3812b22c3baf7983
+commit: 2400055d2256c4c6fae7683451b91f6fad646071
 
 DVBCore
-commit: 4fba20988a66df51b6ed403c87ae1c78d9943061
+commit: a35b78b373793d1b995de6268799fef1684f1334
 
 CI-PLUS
 commit: 5727aba6de6f8b6382d5c991889eb1efa7d79b46
@@ -20,9 +17,13 @@ MHEG5
 commit: 21f86c9b3deb27472a64218faef0ee5e806de8a6
 
 DVB
-commit: 05690713101aa23ff89a2de773f35bc0f7c4edb1
+commit: 60b8eb0b9a6b4c0380878443583b19d75d1928c0
 
+增加环境变量PRODUCT_SUPPORT_CIPLUS，控制CI-PLUS功能，默认打开。
+export PRODUCT_SUPPORT_CIPLUS=true    //CI-PLUS enable
+export PRODUCT_SUPPORT_CIPLUS=false   //CI-PLUS disable
 
+OTT AC214上目前disable CI-PLUS, 编译libdtvkitserver.so前务必执行export PRODUCT_SUPPORT_CIPLUS=false.
 
 说明：
 release 到openlinux 只需要android-inputsource和releaseDTVKit 这两个git就可以了。
