@@ -1,11 +1,11 @@
 android-rpcservice
-commit: 9fb02b5be7aa4a804e6f7528625cb930a3daf6d3
+commit: 7ec25b06ea8e3a80d78e20127ed0c32e632f440c
 
 dtvkit-amlogic
-commit: 8bc6b643b5c8317d59b05290c7ed280535bc03ce
+commit: 126013446f14ddb8044441484a5a2a3c1493ae11
 
 DVBCore
-commit: 60fc4e62f8a22b8259c22afbf2b337d58aa116ec
+commit: f80025ef8e6447604de1afa8a05707cec35f24a6
 
 CI-PLUS
 commit: 5727aba6de6f8b6382d5c991889eb1efa7d79b46
@@ -17,7 +17,7 @@ MHEG5
 commit: 21f86c9b3deb27472a64218faef0ee5e806de8a6
 
 DVB
-commit: ec895656d735b2a72bc0d1fbf853fabb75266243
+commit: 26a3979e05d244e24bdc1e85ce8c156afb15a677
 
 增加环境变量PRODUCT_SUPPORT_CIPLUS，控制CI-PLUS功能，默认打开。
 export PRODUCT_SUPPORT_CIPLUS=true    //CI-PLUS enable
