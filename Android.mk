@@ -6,6 +6,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRELINK_MODULE := false
 LOCAL_PRODUCT_MODULE := true
+LOCAL_STRIP_MODULE := false
 LOCAL_SHARED_LIBRARIES := libEGL libGLESv2 libandroid libbinder libcurl libft2 libgui libjpeg liblog libsqlite libssl libutils
 #directory
 DVBCORE_DIRECTORY := $(LOCAL_PATH)/../DVBCore/
