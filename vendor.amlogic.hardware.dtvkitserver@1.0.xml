@@ -1,0 +1,11 @@
+<manifest version="1.0" type="device" target-level="4">
+    <hal>
+        <name>vendor.amlogic.hardware.dtvkitserver</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IDTVKitServer</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>

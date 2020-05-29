@@ -1,0 +1,10 @@
+on post-fs-data
+    mkdir /data/vendor/dtvkit 0770 root root
+
+on property:dev.bootcomplete=1
+    start dtvkit
+
+service dtvkit /vendor/bin/hw/dtvkitserver
+    class core
+    user root
+    group system root
