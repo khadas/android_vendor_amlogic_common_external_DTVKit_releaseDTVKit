@@ -7,4 +7,4 @@ on property:dev.bootcomplete=1
 service dtvkit /vendor/bin/hw/dtvkitserver
     class core
     user root
-    group system root
+    group system root media_rw
