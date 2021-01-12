@@ -33,7 +33,8 @@ LOCAL_SHARED_LIBRARIES := \
     libsqlite \
     libssl \
     libutils \
-    vendor.amlogic.hardware.dtvkitserver@1.0
+    vendor.amlogic.hardware.dtvkitserver@1.0 \
+    libaml_mp_sdk.vendor \
 
 LOCAL_MODULE := dtvkitserver
 LOCAL_SRC_FILES := dtvkitserver
