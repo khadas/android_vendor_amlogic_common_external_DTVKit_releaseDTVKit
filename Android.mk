@@ -35,6 +35,7 @@ LOCAL_SHARED_LIBRARIES := \
     libutils \
     vendor.amlogic.hardware.dtvkitserver@1.0 \
     libaml_mp_sdk.vendor \
+    libutilscallstack \
 
 LOCAL_MODULE := dtvkitserver
 LOCAL_SRC_FILES := dtvkitserver
