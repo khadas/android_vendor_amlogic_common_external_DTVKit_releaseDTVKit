@@ -53,6 +53,10 @@ LOCAL_SHARED_LIBRARIES := \
     libutilscallstack \
     libteec \
 
+ifeq ($(SUPPORT_CAS),true)
+LOCAL_SHARED_LIBRARIES += libsecmem
+endif
+
 LOCAL_MODULE := dtvkitserver
 
 ifeq ($(DTVKIT_BUILD_FOR_AML_TEE), 1)
