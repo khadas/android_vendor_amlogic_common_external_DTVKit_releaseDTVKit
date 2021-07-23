@@ -52,10 +52,7 @@ LOCAL_SHARED_LIBRARIES := \
     libaml_mp_sdk.vendor \
     libutilscallstack \
     libteec \
-
-ifeq ($(SUPPORT_CAS),true)
-LOCAL_SHARED_LIBRARIES += libsecmem
-endif
+    libsecmem
 
 LOCAL_MODULE := dtvkitserver
 
