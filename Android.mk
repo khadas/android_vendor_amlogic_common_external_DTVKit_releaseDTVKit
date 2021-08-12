@@ -52,7 +52,10 @@ LOCAL_SHARED_LIBRARIES := \
     libaml_mp_sdk.vendor \
     libutilscallstack \
     libteec \
-    libsecmem
+    libsecmem \
+    libsystemcontrolservice \
+    vendor.amlogic.hardware.systemcontrol@1.0 \
+    vendor.amlogic.hardware.systemcontrol@1.1
 
 LOCAL_MODULE := dtvkitserver
 
