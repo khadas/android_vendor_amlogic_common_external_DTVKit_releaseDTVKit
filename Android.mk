@@ -14,9 +14,9 @@ else
 ENCRYPT := 0
 endif
 
-ifeq (,$(wildcard $(LOCAL_PATH)/../DVBCore))
+ifeq (,$(wildcard $(LOCAL_PATH)/../android-rpcservice))
 include $(CLEAR_VARS)
-LOCAL_MODULE := releaseinfo.txt
+LOCAL_MODULE := dtvkitserver_releaseinfo.txt
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/etc
 LOCAL_VENDOR_MODULE := true

@@ -1,0 +1,12 @@
+android-rpcservice
+commit a58ba27d9a643146ea06cd9ee86c1fc655a7688b
+Date:   Tue Aug 24 03:59:35 2021 -0700
+DVBCore
+commit 024e979fafd3f220afab3a258835249a3e7849b3
+Date:   Mon Aug 23 19:25:30 2021 +0800
+dtvkit-amlogic
+commit 9943b873f5af7234851bb0bdd396743ee36de857
+Date:   Wed Aug 25 10:07:30 2021 +0800
+CI-Plus
+commit 181a646635108321a3972212054fffba574d3eee
+Date:   Mon Aug 23 01:20:36 2021 -0700
